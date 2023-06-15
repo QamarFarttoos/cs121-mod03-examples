@@ -43,5 +43,10 @@ public class IceCream
 		System.out.println("cone3 value: " + cone3);
 		System.out.println("cone3 ordinal: " + cone3.ordinal());
 		System.out.println("cone3 name: " + cone3.name());
-	}
-}
+
+		boolean result = Flavor.HUCKLEBERRY.ordinal() > Flavor.CHOCOLATE.ordinal();
+		System.out.printf("%n%n%s is greater than %s: %b%n",Flavor.HUCKLEBERRY, Flavor.CHOCOLATE, result);
+		/*there is no difference between the two codes since they both have the same exact outputs,
+		its just two ways of writing a code with the same output.  */  
+	}   
+}	
